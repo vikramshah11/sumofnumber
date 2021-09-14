@@ -1,0 +1,12 @@
+<?php
+$num = 10;
+$value = 1;
+$sum = 0;
+while($value <= $num)
+{
+$sum = $sum + $value;
+$value++;
+}
+echo "sum of the 10 natural numbers".$sum;
+
+ ?>
